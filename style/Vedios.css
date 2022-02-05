@@ -1,0 +1,11 @@
+.vedios{
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+}
+@media(max-width: 1200px){
+    .vedios{
+        flex-direction: column;
+    }
+}

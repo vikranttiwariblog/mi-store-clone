@@ -1,0 +1,23 @@
+.VediosCard{
+    position: relative;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content p{
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+@media(max-width: 1200px){
+    .VediosCard img{
+        width: 100%;
+    }
+    .VediosCard{
+        margin: 0px 5px 15px 5px;
+    }
+}

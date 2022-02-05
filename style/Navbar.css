@@ -1,0 +1,17 @@
+.logo{
+    background: orangered;
+    width: 56px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#logoImage{
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-56px);
+}
+#logoImage:hover{
+    transform: translateX(0);
+}
+.clr:hover{
+    color: orangered !important;
+    transition: all 0.3s ease-in-out !important;
+}

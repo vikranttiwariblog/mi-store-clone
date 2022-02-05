@@ -1,0 +1,12 @@
+.productReviews{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 1000px){
+    .productReviews{
+        flex-direction: column;
+    }
+}

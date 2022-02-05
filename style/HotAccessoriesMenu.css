@@ -1,0 +1,20 @@
+.HotAccessoriesMenu{
+    text-align: center;
+}
+.HotAccessoriesMenu .HotAccessoriesLinks{
+    margin-left: 40px;
+    font-size: 22px;
+    color: rgba(128, 128, 128, 0.808);
+    text-decoration: none;
+}
+.HotAccessoriesLinks:hover{
+    border-bottom: 2px solid orangered;
+    margin-bottom: 8px;
+    color: orangered;
+}
+@media(max-width: 800px){
+    .HotAccessoriesMenu .HotAccessoriesLinks{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+}

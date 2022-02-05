@@ -1,0 +1,28 @@
+.NavCard{
+    width: 260px;
+    background-color: white;
+}
+.NavCard:hover{
+    box-shadow: 6px 6px 15px rgba(53,53,53,0.363);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.NavCard img{
+    width: 70%;
+    margin-left: 36px;
+}
+.NavCard div{
+    text-align: center;
+}
+.NavCard span{
+    position: relative;
+    top: -15px;
+    color: orangered;
+}
+
+@media(max-width: 1000px){
+    .NavCard{
+        width: 100%;
+        margin: 10px auto;
+    }
+}

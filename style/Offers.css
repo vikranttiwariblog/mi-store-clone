@@ -1,0 +1,23 @@
+.offerSection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.offerSection img:hover{
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.63);
+}
+
+@media(max-width: 1250px){
+    .offerSection{
+        flex-direction: column;
+        padding: 0px 0px;
+        margin: 0px 5px;
+    }
+    .offerSection img{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

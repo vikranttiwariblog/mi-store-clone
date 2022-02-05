@@ -1,0 +1,26 @@
+.HotAccessories{
+    display: flex;
+    max-width: 1300px;
+    margin: 30px auto;
+    background-color: white;
+}
+.HotAccessories .HotAccessoriesCover img:hover{
+    transform: translateY(-4px);
+    box-shadow: 6px 6px 15px rgba(53,53,53,0.363);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.HotAccessories .HotAccessoriesItem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 1300px){
+    .HotAccessories{
+        flex-direction: column;
+    }
+    .HotAccessoriesCover img{
+        width: 100%;
+        margin: 0px 5px;
+    }
+}

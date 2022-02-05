@@ -1,0 +1,19 @@
+.starproduct{
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.starproduct img:hover{
+    box-shadow: 6px 6px 15px rgba(53,53,53,0.363);
+}
+
+@media(max-width: 1250px){
+    .starproduct{
+        flex-direction: column;
+        margin: 0px 5px;
+    }
+    .starproduct img{
+        width: 100%;
+    }
+}

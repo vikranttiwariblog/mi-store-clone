@@ -1,0 +1,22 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading div{
+    width: 30%;
+    height: 1px;
+    background: rgba(128, 128, 128, 0.87);
+    margin-top: 10px;
+}
+.heading p{
+    margin: 25px 20px 20px 20px;
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.918);
+}
+
+@media(max-width: 700px){
+    .heading div{
+        margin: 0px 5px;
+    }
+}

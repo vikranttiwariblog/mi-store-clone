@@ -1,0 +1,13 @@
+.NavOption{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 20px 0px;
+}
+
+@media(max-width: 1000px){
+    .NavOption{
+        flex-direction: column;
+        margin: 0px 5px;
+    }
+}

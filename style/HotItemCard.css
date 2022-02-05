@@ -1,0 +1,30 @@
+.HotItemCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 33.3%;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.HotItemCard:hover{
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 15px rgba(53,53,53,0.363);
+    cursor: pointer;
+}
+.HotItemCard img{
+    width: 70%;
+}
+.HotItemCard .cls-1{
+    text-align: center;
+}
+.HotItemCard .cls-2{
+    text-align: center;
+    margin-top: -8px;
+    color: orangered;
+}
+@media(max-width: 850px){
+    .HotItemCard{
+        width: 100%;
+        margin: 0px 5px;
+    }
+}
